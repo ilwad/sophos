@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "vmfathiSophosXGa"
+        },
+        "adminPassword": {
+            "value": "QWERASDGEE%^££1234"
+        },
+        "vmSize": {
+            "value": "Standard_F2s_v2"
+        },
+        "netNewOrExisting": {
+            "value": "new"
+        },
+        "netRG": {
+            "value": "fathi-rg"
+        },
+        "netName": {
+            "value": "vnet-uks-test-01"
+        },
+        "netPrefix": {
+            "value": "10.8.0.0/16"
+        },
+        "wanName": {
+            "value": "WAN"
+        },
+        "wanPrefix": {
+            "value": "10.8.1.0/24"
+        },
+        "lanName": {
+            "value": "LAN"
+        },
+        "lanPrefix": {
+            "value": "10.8.0.0/24"
+        },
+        "storageNewOrExisting": {
+            "value": "existing"
+        },
+        "storageRG": {
+            "value": "fathi-rg"
+        },
+        "storageName": {
+            "value": "saukssbxfathif5"
+        },
+        "storageType": {
+            "value": "Standard_LRS"
+        },
+        "imageSku": {
+            "value": "payg-new"
+        },
+        "publicIpDNS": {
+            "value": "vmfathisophosxga"
+        },
+        "publicIpName": {
+            "value": "PublicIP"
+        },
+        "publicIpNewOrExisting": {
+            "value": "new"
+        },
+        "publicIpRG": {
+            "value": "fathi-rg"
+        },
+        "publicIpType": {
+            "value": "Dynamic"
+        },
+        "location": {
+            "value": "uksouth"
+        }
+    }
+}
